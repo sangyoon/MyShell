@@ -7,11 +7,11 @@
 #include <sys/types.h>
 #include <sys/wait.h>
 
-#define MAX_SIZE 1 << 10
+#define MAX_SIZE   1 << 10
 #define DELIMS     " \t\r\n"
 
-#define REDIRECT ">"
-#define APPEND ">>"
+#define REDIRECT   ">"
+#define APPEND     ">>"
 #define BACKGROUND "&"
 
 size_t parse(char*, char**);
